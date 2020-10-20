@@ -1,10 +1,9 @@
 import 'dart:async';
 
-import 'dart:html';
 
 enum NavBarItem{HOME, SOURCES, SEARCH}
 
-class BottomBavBarBloc{
+class BottomNavBarBloc{
   final StreamController<NavBarItem> _navBarController =
       StreamController<NavBarItem>.broadcast();
 

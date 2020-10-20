@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:news_app_bloc/screens/main_screan.dart';
 
 
 void main() {
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      home: MainScrean(),
     );
   }
 }
